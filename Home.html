@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.3-dist/css/bootstrap.min.css">
+  
+    <style>
+    @media (max-width: 600px) {
+        .kolom-2 {
+            display: none;
+        }
+    }
+    .kolom-grid {
+        padding: 10px 0;
+    }
+  
+    .kolom-1 {
+        padding-left: 10px;
+    }
+  
+    .kolom-2 {
+        padding-right: 10px;
+    }
+    </style>
+</head>
+<body>
+    <!-- logo dan search -->
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>     
+        <div class="container">
+            <div class="row">
+                <div class="kolom-grid kolom-1 col-lg-6 ">
+                    <div class="d-flex justify-content-first collapse navbar-collapse" id="navbarSupportedContent">
+                        <p class="navbar-brand" href="#">
+                            <img src="Aset/LogoUnri.png" alt="Logo" width="72" height="72">
+                            <img src="Aset/prodipng.png" alt="Logo" width="150" height="72">           
+                        </p>
+                    </div>
+                </div>
+                <div class="kolom-grid kolom-2 col-lg-6 ">
+                    <div class="d-flex justify-content-end collapse navbar-collapse" id="navbarSupportedContent">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+             </div>
+        </div>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light" >
+        <div class="container-fluid" style="background-color:#0B2447;">  
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: aliceblue;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: aliceblue;">Profil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: aliceblue;">Prestasi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" style="color: aliceblue;">Akademik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" style="color: aliceblue;">Dosen</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- slide gambar -->
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Aset/gambar1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/banner-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="img/gambar3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+      </div></br></br>
+    </body>
+</html>
